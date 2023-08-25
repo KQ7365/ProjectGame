@@ -1,0 +1,111 @@
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  padding: 6px 12px;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  user-select: none;
+  margin-top: 0.5rem;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn--sm {
+  padding: 4px 8px;
+  font-size: 1rem;
+}
+
+.btn--lg {
+  padding: 8px 16px;
+  font-size: 1.5rem;
+}
+
+.btn--success {
+  color: #e8f5e9;
+  border-color: #43a047;
+  background: linear-gradient(to bottom, #81c784 0%, #66bb6a 100%);
+  box-shadow: inset 0 1px #c8e6c9, 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn--success:hover,
+.btn--success:focus,
+.btn--success.focus {
+  border-color: #66bb6a;
+  background: linear-gradient(to bottom, #a5d6a7 0%, #81c784 100%);
+  box-shadow: inset 0 1px #e8f5e9, 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn--warning {
+  color: #fff3e0;
+  border-color: #fb8c00;
+  background: linear-gradient(to bottom, #ffb74d 0%, #ffa726 100%);
+  box-shadow: inset 0 1px #ffe0b2, 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn--warning:hover,
+.btn--warning:focus,
+.btn--warning.focus {
+  border-color: #ffa726;
+  background: linear-gradient(to bottom, #ffcc80 0%, #ffb74d 100%);
+  box-shadow: inset 0 1px #fff3e0, 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn--info {
+  color: #eeecec;
+  border-color: #2a2a2a;
+  background: linear-gradient(to bottom, #808080 0%, #323232 100%);
+  box-shadow: inset 0 1px #cbc9c9, 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn--info:hover,
+.btn--info:focus,
+.btn--info.focus {
+  border-color: #323232;
+  background: linear-gradient(to bottom, #f1c882 0%, #f3af3b 100%);
+  box-shadow: inset 0 1px #eeecec, 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.startOver {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.startOver:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.startOver:active {
+  transform: scale(0.95);
+}

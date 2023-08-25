@@ -1,0 +1,121 @@
+@import url("buttons.css");
+@import url("leaderboard.css");
+@import url("leftpanel.css");
+@import url("gameplay.css");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+/*Typography
+--------------------------------------------------------------*/
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+input:hover,
+select:hover {
+  border: 2px solid black;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0.5rem 0;
+  border: 0;
+}
+
+input,
+select,
+textarea {
+  font-family: Comfortaa, Arial, sans-serif;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  border: 1px solid rgba(31, 79, 109, 0.5);
+  background-color: rgba(44, 155, 225, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (min-width: 1080px) {
+  .data {
+    flex: 3.7;
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .data {
+    flex: 2.8;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .data {
+    flex: 1.7;
+  }
+}
